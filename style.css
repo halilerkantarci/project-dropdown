@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.urunler {
+  background-color: black;
+  height: 10vh;
+  width: 25vw;
+  cursor: pointer;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+h1 {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  position: relative;
+  left: 22px;
+  top: 12px;
+  color: aliceblue;
+}
+li {
+  list-style: inside;
+  padding-left: 20px;
+  line-height: 1.8rem;
+}
+.list a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+}
+.list {
+  border: 1px solid black;
+  display: inline-block;
+  width: 30vw;
+  margin-top: 1.5rem;
+
+  display: none;
+}
+.urunler:hover .list {
+  display: inline-block;
+}
+.urunler:hover li:hover {
+  background-color: gray;
+  /* display: inline-block; */
+}
